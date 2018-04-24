@@ -1,0 +1,16 @@
+{
+  "full_name": "Michael",
+  "email": "les161803@hotmail.com",
+  "github_username": "Michael-Liao",
+  "project_name": "CMake Project",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "the cmake boilerplate that you will ever need",
+  "version": "0.1.0",
+  "use_catch": "y",
+  "command_line_interface": ["Clara", "No command-line interface"],
+  "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
+  "_copy_without_render": [
+    "run.sh",
+    "vendor"
+  ]
+}
