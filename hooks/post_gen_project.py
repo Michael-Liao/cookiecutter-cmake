@@ -17,7 +17,7 @@ if __name__ == '__main__':
         # remove_file('vendor/catch/catch.hpp')
     if 'no' in '{{ cookiecutter.command_line_interface|lower }}':
         pass
-        # remove_file('include/{{}}/clara.hpp')
+        # remove_file('include/clara.hpp')
 
     if 'Not open source' == '{{ cookiecutter.open_source_license }}':
         remove_file('LICENSE.md')
