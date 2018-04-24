@@ -1,11 +1,11 @@
 # in test
 # single file library setup
 add_library(Catch INTERFACE)
-target_include_directories(Catch INTERFACE ${PROJECT_SOURCE_DIR}/include)
+target_include_directories(Catch INTERFACE ${PROJECT_SOURCE_DIR}/vendor)
 
 # add this so we can do `make catch`
 add_custom_target(catch
-  COMMAND {{ cookiecutter.project_slug.upper() }}_test
+  COMMAND {{ cookiecutter.project_slug.upper() }}
   COMMENT "running catch defined tests"
 )
 

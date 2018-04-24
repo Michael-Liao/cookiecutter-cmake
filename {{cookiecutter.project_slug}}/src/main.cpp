@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "{{ cookiecutter.project_slug }}/{{ cookiecutter.project_slug }}.h"
+#include "{{ cookiecutter.project_slug }}.h"
 
 using namespace std;
 
